@@ -1,0 +1,103 @@
+.header{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.header .nav {
+    list-style: none;
+    text-decoration: none;
+}
+.header .nav li{
+    display: inline;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+.header .nav li:hover{
+    padding: 25px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.header img{
+    width: 200px;
+    height: 90px;
+    float: right;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+}
+a img{
+    width: 1350px;
+    height: 500px;
+    position: relative;
+    bottom: 70px;
+}
+.div2{
+    float: right;
+    position: relative;
+    bottom: 355px;
+    right: 350px;
+}
+.form{
+    width: 600px;
+    height: 520px;
+    border: 2px solid #000;
+    background-color: #D6DBDF;
+}
+.form h2{
+    text-align: left;
+    color: teal;
+}
+.form p{
+    border: 1px dashed teal;
+    text-align: left;
+    background-color: #808B96;
+}
+.form span{
+    color: red;
+}
+.content{
+    position: absolute;
+}
+table .style1{
+    width: 200px;
+}
+table .style2{
+    width: 300px;
+}
+table .style3{
+    width: 100px;
+    float: left;
+}
+table .style4{
+    width: 230px;
+}
+table .style5{
+    width: 300px;
+}
+table .style6{
+    width: 200px;
+}
+table span{
+    color: blue;
+    text-decoration: underline;
+}
+table .button1{
+    padding: 10px;
+}
+table .style10{
+    width: 50px;
+    float: left;
+}
+table .style11{
+    width: 100px;
+    float: left;
+}
+table .style10{
+    width: 100px;
+    float: left;
+}

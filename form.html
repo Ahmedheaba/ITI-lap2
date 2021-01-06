@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <ul class="nav">
+                <a href="index.html"><li>Home</li></a>
+                <a href="home.html" target="_blank"><li>Road Map</li></a>
+                <a href="form.html"><li>Registration Form</li></a>
+                <a href="https://www.facebook.com/ITIchannel/"><li>Content</li></a>
+            </ul>
+            <img src="images/ITI_logo.png" alt="Logo-ITI">
+        </div>
+
+        <center>
+            <div class="form">
+                <h2>Register - Create Acount</h2>
+                <p>Field marked with <span>*</span> are compulsory fileds</p>
+                <form method="POST" >
+                    <table>
+                        <tr>
+                            <td align="right">Username</td>
+                            <td class="style1"><input type="text" name="username" class="style1"></td> 
+                        </tr>
+                        <tr>
+                            <td align="right">E-mail</td>
+                            <td><input type="email" name="email" class="style2"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Alternate E-email</td>
+                            <td><input type="email" name="email" class="style3"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Phone</td>
+                            <td> <input type="text" name="pone" size="15px"> </td>
+                        </tr>
+                        <tr>
+                            <td align="right">Mobile Phone</td>
+                            <td>
+                                <label>Country Code</label>
+                                -
+                                <label>City Code</label>
+                                -
+                                <label>Phone Number</label>
+                                <br>
+                                <input type="text" name="country code" style="width: 50px;">
+                                &nbsp;-&nbsp;
+                                <input type="text" name="country code" style="width: 50px;">
+                                &nbsp;-&nbsp;
+                                <input type="text" name="country code" style="width: 50px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">Your Postal Adress</td>
+                            <td><textarea name="message" rows="4"> </textarea></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Country</td>
+                            <td><select name="Country" class="style5">
+                                <option value="select"disabled selected>-----Select Option------</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="USA">USA</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Password</td>
+                            <td><input type="password" name="password" class="style6"></td>
+                        </tr>
+                        <td align="right">RE-Password</td>
+                        <td><input type="password" name="password" class="style6"></td>
+                        <tr>
+                            <td align="right"> <input type="checkbox"></td>
+                            <td>I accept the <span class="a">Term Of Use</span></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" class="button1">Contunue!</button></td>
+                            <td>  <input type="reset" value="Reset" class="button1"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </center>
+        <hr>
+        <center>Copyright 2021 by Ahmed Heaba &reg;.All Rights Reserved</center>
+
+    </body>
+</html>
